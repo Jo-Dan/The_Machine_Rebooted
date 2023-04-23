@@ -28,7 +28,7 @@ from voicecontrol import get_mp3, get_nato, get_speech
 # webcam number
 Camera_Number = input("Camera Number (Usually 0) >>> ")
 vc = cv2.VideoCapture(int(Camera_Number))
-#vc = cv2.VideoCapture("spedup.mp4")
+# vc = cv2.VideoCapture("spedup.mp4")
 
 # paths
 face_database = 'facebase'

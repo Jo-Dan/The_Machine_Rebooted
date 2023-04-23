@@ -3,14 +3,12 @@ Voice recognition and random voice mp3 retreival (a la The Machine)
 
 By Jo-dan
 """
-# from gtts import gTTS
 import os
 import random
 import string
 import time
 
 import natural.text
-import pyaudio
 import pocketsphinx
 import pyttsx3
 import speech_recognition as sr
